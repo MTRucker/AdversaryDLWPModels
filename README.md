@@ -4,7 +4,9 @@ Bachelor's Thesis on Adversarial Attacks on Deep Learning Weather Prediction Mod
 
 Done within the MLCS Group at the University of Tübingen
 
-The code will be refined and cleaned up properly in the next few days, everything is currently implemented as was last left
+The code will be refined and cleaned up properly in the next few days, everything is currently implemented as was last left.
+
+IT IS CURRENTLY HORRIBLY INCONSISTENT AND FUMBLED WITH A LOT OF TEMPORARY, ONE-OFF FUNCTIONS. I will try to distill it as best I can.
 
 
 WARNINGS for local users
