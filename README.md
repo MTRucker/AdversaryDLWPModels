@@ -2,8 +2,7 @@
 
 Bachelor's Thesis on Adversarial Attacks on Deep Learning Weather Prediction Models
 
-Done within the MLCS Group
-University of Tübingen
+Done within the MLCS Group at the University of Tübingen
 
 The code will be refined and cleaned up properly in the next few days, everything is currently implemented as was last left
 
