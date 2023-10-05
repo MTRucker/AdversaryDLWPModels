@@ -14,4 +14,4 @@ The dataset can be found at the following links :
 - At the original citation : https://www.wdc-climate.de/ui/cmip6?input=CMIP6.CMIP.NCAR.CESM2.piControl
 - At the CMIP 6 search interface : https://esgf-data.dkrz.de/search/cmip6-dkrz/ under the name CMIP6.CMIP.NCAR.CESM2.piControl.r1i1p1f1.Amon.tas.gn
 
-Any other local files shouldn't require any external downloading. These could be accesed either by creating them with the code provided (models as an example) or by using someone's already files (examples are in this GitHub repository).
+Any other local files shouldn't require any external downloading. These could be accessed either by creating them with the code provided (models as an example) or by using someone's already files (examples are in this GitHub repository).
