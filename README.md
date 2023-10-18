@@ -19,9 +19,9 @@ Any other local files shouldn't require any external downloading. These could be
 ## **PACKAGES USED**
 ------------------------
 Required
-
-[PyTorch](https://pytorch.org/get-started/locally/ "PyTorch's download site") (CUDA optional, but helpful)
-Torchvision
-Xarray
-Numpy
-einops
+- [I'm an inline-style link](https://www.google.com)
+- [PyTorch](https://pytorch.org/get-started/locally/ "PyTorch's download site") (CUDA optional, but helpful)
+- Torchvision
+- Xarray
+- Numpy
+- einops
