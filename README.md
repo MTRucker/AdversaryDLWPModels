@@ -1,4 +1,4 @@
-# Adversarial Attacks on Deep Learning Weather Prediction Models
+# **Adversarial Attacks on Deep Learning Weather Prediction Models**
 
 Read this thoroughly before diving into the code, as some setup is required to run this code without any problems.
 
@@ -7,8 +7,7 @@ Bachelor's Thesis on Adversarial Attacks on Deep Learning Weather Prediction Mod
 Done within the MLCS Group at the University of Tübingen
 
 
-WARNINGS for local users
-------------------------
+## **WARNINGS for local users**
 The dataset used is courtesy of their respective owners (ESGF, NCAR, the CMIP6 project and the CESM2 project).
 The dataset can be found at the following links :
 - At the original citation : https://www.wdc-climate.de/ui/cmip6?input=CMIP6.CMIP.NCAR.CESM2.piControl
@@ -17,11 +16,11 @@ The dataset can be found at the following links :
 Any other local files shouldn't require any external downloading. These could be accessed either by creating them with the code provided (models as an example) or by using someone's already files (examples are in this GitHub repository).
 
 
-**PACKAGES USED**
+## **PACKAGES USED**
 ------------------------
 Required
 
-PyTorch (CUDA optional, but helpful)
+[PyTorch](https://pytorch.org/get-started/locally/ "PyTorch's download site") (CUDA optional, but helpful)
 Torchvision
 Xarray
 Numpy
