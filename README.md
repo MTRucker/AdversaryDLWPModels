@@ -30,6 +30,18 @@ However this should run completely fine on the cluster with the appropriate pack
 - [preproc.py](../main/preproc.py) is a local script, but still necessary for constructing the dataset
 
 
+## GENERAL WORKFLOW
+1. Train a Niño 3.4 Model by running nino34_model_training.py
+   1. Prepare dataset; calculate Niño 3.4 cutout, Index, anomalies and labels
+   2. Construct model; see **MODEL ARCHITECTURE** below
+   3. Set Hyperparameters
+   4. Train and test model, model saves during training
+   5. Visualize training and testing results as you want
+2. Execute Adversarial Attack on Trained Model, by running nino34_adversarial_attack.py
+   1. Set correct path to trained model
+   2. Execute adversarial attack
+   3. Visualize results as you want
+
 ## MODEL ARCHITECTURE
 1. 1x Convolutional (Conv2d) layer : Projects the input to the chosen (128) latent dimension with a simple 1x1 convolution
 2. 4x ConvNeXt blocks : Processes the spatial information with a series of Residual blocks, that are structured as follows;
