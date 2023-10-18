@@ -39,8 +39,9 @@ However this should run completely fine on the cluster with the appropriate pack
    5. Visualize training and testing results as you want
 2. Execute Adversarial Attack on Trained Model, by running nino34_adversarial_attack.py
    1. Set correct path to trained model
-   2. Execute adversarial attack
-   3. Visualize results as you want
+   2. Set Hyperparameters (magnitudes of adversarial attacks)
+   3. Execute adversarial attack
+   4. Visualize results as you want
 
 ## MODEL ARCHITECTURE
 1. 1x Convolutional (Conv2d) layer : Projects the input to the chosen (128) latent dimension with a simple 1x1 convolution
