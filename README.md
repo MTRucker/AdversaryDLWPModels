@@ -24,4 +24,4 @@ Any other local files shouldn't require any external downloading. These could be
 - [numpy](https://numpy.org/install/)
 - [einops](https://einops.rocks/#Installation)
 - [nc-time-axis](https://github.com/SciTools/nc-time-axis)
-- preproc.py is a local script, but still necessary for constructing the dataset
+- [preproc.py](../blob/main/preproc.py) is a local script, but still necessary for constructing the dataset
