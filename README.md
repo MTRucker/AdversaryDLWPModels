@@ -18,10 +18,10 @@ Any other local files shouldn't require any external downloading. These could be
 
 ## **PACKAGES USED**
 ------------------------
-Required
-- [I'm an inline-style link](https://www.google.com)
-- [PyTorch](https://pytorch.org/get-started/locally/ "PyTorch's download site") (CUDA optional, but helpful)
-- Torchvision
-- Xarray
-- Numpy
-- einops
+- [PyTorch](https://pytorch.org/get-started/locally/) (CUDA optional, but helpful)
+- [matplotlib](https://matplotlib.org/stable/users/getting_started/)
+- [xarray](https://docs.xarray.dev/en/stable/getting-started-guide/installing.html)
+- [numpy](https://numpy.org/install/)
+- [einops](https://einops.rocks/#Installation)
+- [nc-time-axis](https://github.com/SciTools/nc-time-axis)
+- preproc.py is a local script, but still necessary for constructing the dataset
