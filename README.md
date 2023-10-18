@@ -36,9 +36,9 @@ However this should run completely fine on the cluster with the appropriate pack
 
 ## GENERAL WORKFLOW
 1. Train a Niño 3.4 Model by running nino34_model_training.py
-   1. Prepare dataset; calculate Niño 3.4 cutout, Index, anomalies and labels
-   2. Construct model; see **MODEL ARCHITECTURE** below
-   3. Set Hyperparameters
+   1. Prepares dataset; calculate Niño 3.4 cutout, Index, anomalies and labels
+   2. Constructs model; see **MODEL ARCHITECTURE** below
+   3. Set Hyperparameters (points i and ii are for clarification, the code does that "itself")
    4. Train and test model, model saves during training
    5. Visualize training and testing results as you want
 2. Execute Adversarial Attack on Trained Model, by running nino34_adversarial_attack.py
