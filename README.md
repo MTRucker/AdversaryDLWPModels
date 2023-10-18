@@ -15,6 +15,9 @@ The dataset can be found at the following links :
 
 Any other local files shouldn't require any external downloading. These could be accessed either by creating them with the code provided (models as an example) or by using someone's already files (examples are in this GitHub repository).
 
+Most of the code was run locally and not on the ML Cluster, as I had some issues setting everything up there.
+However this should run completely fine on the cluster with the appropriate packages.
+
 
 ## **PACKAGES USED**
 ------------------------
