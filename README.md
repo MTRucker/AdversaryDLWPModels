@@ -28,3 +28,7 @@ However this should run completely fine on the cluster with the appropriate pack
 - [einops](https://einops.rocks/#Installation)
 - [nc-time-axis](https://github.com/SciTools/nc-time-axis)
 - [preproc.py](../main/preproc.py) is a local script, but still necessary for constructing the dataset
+
+
+## MODEL ARCHITECTURE
+![alt text](https://github.com/MTRucker/AdversaryDLWPModels/blob/main/Model_Architecture.png)
