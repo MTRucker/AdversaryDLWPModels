@@ -8,7 +8,7 @@ Done within the MLCS Group at the University of Tübingen
 
 Read this thoroughly before diving into the code, as some setup is required to run this code without any problems.
 
-I've also left some remnant code, because they have potential solutions to questions that may arise, but they are not essential. They have been left uncleaned as is, but I'm always available if need be and if some things need to be cleared up.
+I've also left some remnant code, images and data, because they have potential solutions to questions that may arise, but they are not essential. They have been left uncleaned as is, but I'm always available if need be and if some things need to be cleared up.
 
 
 ## **WARNINGS for local users**
