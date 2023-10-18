@@ -33,17 +33,11 @@ However this should run completely fine on the cluster with the appropriate pack
 ## MODEL ARCHITECTURE
 1. 1x Convolutional (Conv2d) layer : Projects the input to the chosen (128) latent dimension with a simple 1x1 convolution
 2. 4x ConvNeXt blocks : Processes the spatial information with a series of Residual blocks, that are structured as follows;
-
-- 1x Conv2d layer : Process spatial information per channel with a 7x7 convolution, wherein each input channel is convolved with its own set of filters (size 1 in our case)
-
-- 1x Group normalization (GN) layer : Normalize each channel to have mean of 0 and standard deviation of 1, this stabilizes training
-
-- 1x Conv2d layer : Expand to higher dimension with an expansion factor of 4 (4 · 128 = 512) and a 1x1 convolution
-
-- 1x Gaussian Error Linear Units (GELU) activation function: Applies non-linearity
-
-- 1x Conv2d layer : Project back to lower dim (128) with a 1x1 convolution
-
+  - 1x Conv2d layer : Process spatial information per channel with a 7x7 convolution, wherein each input channel is convolved with its own set of filters (size 1 in our case)
+  - 1x Group normalization (GN) layer : Normalize each channel to have mean of 0 and standard deviation of 1, this stabilizes training
+  - 1x Conv2d layer : Expand to higher dimension with an expansion factor of 4 (4 · 128 = 512) and a 1x1 convolution
+  - 1x Gaussian Error Linear Units (GELU) activation function: Applies non-linearity
+  - 1x Conv2d layer : Project back to lower dim (128) with a 1x1 convolution
 3. 1x Global Average Pooling layer : Compute the average of all pixels in each feature map, return that as a single element which building block of the vector of all pooled feature maps
 4. 1x Linear layer : Expand to higher dimension with an expansion factor of 4 (4 · 128 = 512)
 5. 1x GELU activation function : Applies non-linearity
